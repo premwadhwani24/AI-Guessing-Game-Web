@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>🎉 AI Guessed It!</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <audio autoplay>
+        <source src="/static/music/victory.mp3.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="container">
+        <h1>🏆 Congratulations!</h1>
+        <p>The AI guessed your number <strong>{{ guess }}</strong>!</p>
+        <p>It took only <strong>{{ attempts }}</strong> attempts!</p>
+        <a class="btn" href="/reset">Play Again</a>
+    </div>
+
+    <div class="fireworks"></div>
+</body>
+</html>

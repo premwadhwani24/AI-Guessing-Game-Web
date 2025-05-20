@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI is Guessing!</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🔮 AI's Attempt #{{ attempts }}</h1>
+        <div class="guess-box">
+            <p class="guess-number">{{ guess }}</p>
+        </div>
+        <div class="buttons">
+            <a class="btn" href="/feedback/higher">Higher</a>
+            <a class="btn" href="/feedback/lower">Lower</a>
+            <a class="btn" href="/feedback/correct">Correct</a>
+        </div>
+        <p class="thinking">🤔 AI is thinking...</p>
+    </div>
+</body>
+</html>
